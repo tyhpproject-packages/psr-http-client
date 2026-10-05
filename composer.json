@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/psr-http-client",
+    "description": "Tyhp type definitions for psr/http-client 1.0.3.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.0.3",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/psr-http-client-impl": "~1.0.3.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/psr-http-client-impl"
+        }
+    }
+}
